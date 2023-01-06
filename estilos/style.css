@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    background: scroll url("../imagens/background.png") no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header{
+    margin-top: 135px;
+    text-align: center;
+}
+
+.header > img{
+    margin-bottom: 25px;
+    width: 130px;
+}
+
+.header > h1{
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.header > h2{
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.header > h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.form{
+    margin: auto;
+    width: 41vw;
+    text-align: center;
+}
+
+.displayInput, .btn{
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#icheck{
+    margin-top: 10px;
+    background-color: blue;
+}
+
+.label{
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn{
+    margin-top: 15px;
+    background-color: #007CFF;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0362c7;
+    cursor: pointer;
+}
